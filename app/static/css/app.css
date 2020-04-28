@@ -5,3 +5,30 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+#app{
+    text-align: center;
+}
+
+.news__list{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.news__item {
+    width: auto;
+    
+    border-top: 5px solid rgba(20, 204, 20, 0.755);
+    border-radius: 1%;
+    padding: 3%;
+    margin: 3%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    list-style-type: none;
+  }
+
+  .news__item img{
+    height: 300px;
+    width: 100%  ;
+    border-radius: 2%;
+  }
